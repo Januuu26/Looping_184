@@ -13,4 +13,16 @@ int main(){
     }
     cout<<endl;
 
-   
+    //untuk mendapatkan urutan angka acak yg berbeda
+    srand(time(0));
+
+    //Perulangan dengan WHILE
+    cout<<"PERULANGANN WHILE"<<endl;
+    x = 1 + rand()%10;
+
+    while(x<=5){
+        cout<<"Bilangan acak = "<<x <<endl;
+        x = rand()%10;
+    }
+
+    
